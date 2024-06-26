@@ -1,0 +1,287 @@
+@media only screen and (max-width:1024px) {
+    .sec-header a {
+        font-size: 12px;
+    }
+
+    .box-img img {
+        height: 235px;
+    }
+
+    .sec-2::after {
+        background-size: 150px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .sec-btn-img img {
+        width: 290px;
+    }
+
+    .slider-initial-3 .img-head {
+        margin-top: -30%;
+        margin-left: 60px;
+    }
+
+    .sec-7-img-1,
+    .sec-7-img-5 {
+        width: 150px;
+    }
+
+    .sec-7-img-2,
+    .sec-7-img-4 {
+        width: 200px;
+    }
+
+    .sec-7-img-3 {
+        width: 280px;
+    }
+
+    .sec-footer-1 {
+        position: relative;
+    }
+
+    .sec-footer-1::before {
+        content: "";
+        background-image: url(../images/b-tag-img.png);
+        height: 200px;
+        width: 120px;
+        background-repeat: no-repeat;
+        background-size: 120px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .sec-footer-1 h1 {
+        font-size: 32px;
+    }
+
+    .footer-text p::after {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sec-header a {
+        font-size: 10px;
+    }
+
+    .sec-hero h1 {
+        font-size: 45px;
+    }
+
+    .box-img img {
+        height: 230px;
+    }
+
+    .sec-1 h1 {
+        font-size: 45px;
+    }
+
+    .slider-initial-1 .sec-text h5 {
+        font-size: 16px;
+    }
+
+    .slider-initial-1 .sec-text p {
+        font-size: 14px;
+    }
+
+    .sec-2::after {
+        display: none;
+    }
+
+    .sec-3 h1 {
+        font-size: 45px;
+    }
+
+    .sec-4 h1 {
+        font-size: 45px;
+    }
+
+    .sec-5 h1 {
+        font-size: 45px;
+    }
+
+    .sec-btn-img {
+        display: none;
+    }
+
+    .sec-6 h1 {
+        font-size: 45px;
+    }
+
+    .slider-initial-3 .img-head {
+        margin-top: -15%;
+        margin-left: 120px;
+    }
+
+    .sec-7 h1 {
+        font-size: 45px;
+    }
+
+    .sec-7-img-1,
+    .sec-7-img-5 {
+        width: 120px;
+    }
+
+    .sec-7-img-2,
+    .sec-7-img-4 {
+        width: 150px;
+    }
+
+    .sec-7-img-3 {
+        width: 186px;
+    }
+
+    .sec-8 h1 {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    .box-img img {
+        height: 200px;
+    }
+
+    .slider-initial-3 .img-head {
+        margin-top: -15%;
+        margin-left: 95px;
+    }
+
+    .sec-7-img-1,
+    .sec-7-img-5 {
+        width: 107px;
+    }
+
+    .sec-7-img-2,
+    .sec-7-img-4 {
+        width: 130px;
+    }
+
+    .sec-7-img-3 {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .sec-header .col-sm-12 {
+        width: 100%;
+    }
+
+    .sec-header img {
+        padding-bottom: 20px;
+    }
+
+    .sec-hero {
+        height: 500px;
+    }
+
+    .sec-hero p {
+        font-size: 15px;
+    }
+
+    .sec-hero h1 {
+        font-size: 40px;
+    }
+
+    .col-xs-3 {
+        flex: 0 0 25%;
+    }
+
+    .sec-1 h1 {
+        font-size: 40px;
+    }
+
+    .sec-2 h1 {
+        font-size: 40px;
+    }
+
+    .sec-3 h1 {
+        font-size: 40px;
+    }
+
+    .sec-4 {
+        height: 300px;
+    }
+
+    .sec-4 h1 {
+        font-size: 40px;
+    }
+
+    .sec-4-img {
+        display: none;
+    }
+
+    .sec-5 .row {
+        text-align: center;
+    }
+
+    .sec-5 h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .sec-5 .accordion {
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .sec-6 h1 {
+        font-size: 40px;
+    }
+
+    .slider-initial-3 .img-head {
+        margin-top: -20%;
+        margin-left: 108px;
+    }
+
+    .sec-7 h1 {
+        font-size: 40px;
+    }
+
+    .sec-7-img-1,
+    .sec-7-img-5 {
+        width: 50px;
+    }
+
+    .sec-7-img-2,
+    .sec-7-img-4 {
+        width: 70px;
+    }
+
+    .sec-7-img-3 {
+        width: 93px;
+    }
+
+    .sec-8 h1 {
+        font-size: 40px;
+    }
+
+    .sec-8 .row {
+        row-gap: 15px;
+    }
+
+    .sec-8 img {
+        margin: 0 !important;
+    }
+
+    .sec-footer h1 {
+        font-size: 40px;
+    }
+
+    .sec-footer-1 .form {
+        flex-direction: column;
+    }
+
+    .sec-footer-1 .form input {
+        width: 100%;
+    }
+
+    .sec-footer-1 .form button {
+        width: 100% !important;
+    }
+
+    .footer::after {
+        display: none;
+    }
+}
